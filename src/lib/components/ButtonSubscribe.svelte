@@ -8,7 +8,7 @@
     };
     fetch('/pay/pay', options)
       .then(res => res.text())
-      .then(data =>console.log(data))
+      .then(data =>window.open(data))
       .catch(error => console.error(error))
   }
 </script>
